@@ -2,40 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Home – Luis Pascual</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Luis Pascual - UX/UI Designer | Digital Product Design</title>
+  <meta name="description" content="Luis Pascual is a UX/UI designer specialized in creating intuitive and user-centered digital products that drive business growth. Explore portfolio, case studies and design process." />
   <link rel="stylesheet" href="style.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script defer src="menu.js"></script>
 </head>
 <body>
+
+  <!-- HEADER -->
   <header>
-    <h1>Luis Pascual</h1>
-    <button id="menu-toggle" aria-label="Toggle menu">&#9776;</button>
-    <nav id="nav-menu" class="nav-menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
+    <nav class="navbar">
+      <div class="logo">Luis Pascual</div>
+      <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="case-studies.html">Case Studies</a></li>
         <li><a href="process.html">Process</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="articles.html">Articles</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <main>
-    <h2>Hello, I’m Luis Pascual</h2>
-    <p>
-      I craft meaningful digital experiences that blend creativity and usability, turning ideas into seamless products.
-      My passion lies in understanding people’s needs and designing solutions that make their lives easier and more enjoyable.
-    </p>
-    <p>
-      Whether it’s sketching wireframes, prototyping interfaces, or collaborating with teams, I’m driven by the challenge of shaping
-      products that truly resonate.
-    </p>
-    <a class="button" href="case-studies.html">Explore my work</a>
+
+  <!-- MAIN CONTENT -->
+  <main class="container">
+    <section class="intro">
+      <h1>Hi, I’m Luis Pascual — UX/UI Designer</h1>
+      <p>I create intuitive digital products that connect users with brands through elegant and meaningful design.</p>
+      <p>With over <strong>[X] years</strong> of experience, I transform complex problems into simple, user-friendly solutions that drive business growth.</p>
+      <p>Take a look at my <a href="case-studies.html">case studies</a> to see my approach in action, or learn about my <a href="process.html">design process</a>.</p>
+      <p>Let’s collaborate and build outstanding digital experiences together.</p>
+    </section>
   </main>
+
+  <!-- FOOTER -->
   <footer>
-    <p>© 2025 Luis Pascual. All rights reserved.</p>
+    <div class="container footer-container">
+      <p>© 2025 Luis Pascual — UX/UI Designer</p>
+      <nav class="footer-nav">
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </footer>
 
-  <script src="menu.js"></script>
 </body>
 </html>
